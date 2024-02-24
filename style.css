@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Sarala", sans-serif;
+    background: linear-gradient(68.15deg, #3b2d2f 16.62%, #8E5D52 85.61%);
+
+
+}
+a {
+    text-decoration: none;
+}
+.header {
+    border-bottom: 0.4px solid rgba(255, 242, 231, 1)
+}
+.contenedor {
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+}
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.logo {
+    width: 62px;
+    height: 62px;
+    margin-top: px;
+}
+.navegacion {
+
+}
+.navegacion__item {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFF2E7;
+    margin-right: 30px;
+}
+.navegacion__item:hover {
+    color: #ecd6c4;
+
+}
+.contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagen img {
+    height: 429px;
+}
+.titulo {
+    font-size: 64px;
+    font-family: "Righteous", sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    
+} 
+.descripcion {
+    color: #ecd6c4;
+    font-size: 24px;
+    font-weight: 400;
+}
+.boton {
+    color: #2f2325;
+    background-color: #ecd6c4;
+    box-shadow: 4px 5px 4px 0px #00000040;
+    padding: 12px 37px;
+    border-radius: 14px;
+    font-size: 24px;
+    display: inline-block;
+
+}
+.boton:hover {
+    background-color: #e0a193;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.contenido-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.pregunta {
+    border-top: 0.4px solid #FFF2E7;
+}
+.pregunta h4 {
+    font-family: "Righteous", sans-serif;
+    color: #FFF2E7;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.listado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+ p {
+    color: #ecd6c4;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+span {
+    font-weight: 700;
+}
+.no-margin {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    height: 150px;
+    margin-top: 80px;
+    border-top: 0.4px solid #ecd6c4;
+}
